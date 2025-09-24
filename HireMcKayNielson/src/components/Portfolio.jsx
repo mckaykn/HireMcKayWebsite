@@ -1,9 +1,6 @@
 import React from "react";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
 
-// Single-file, production-ready React component using Tailwind CSS.
-// Drop this into a Vite or Create React App project (src/components/) and import <Portfolio /> into App.jsx.
-
 const projects = [
   {
     title: "Cheater Detection ML (Demo)",
