@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail, Download } from "lucide-react";
 const projects = [
   {
     title: "Cheater Detection ML (Demo)",
-    desc: "Supervised ML model that classifies players as cheaters vs legit using time-series gameplay data.",
+    desc: "Supervised ML model that cl  assifies players as cheaters vs legit using time-series gameplay data.",
     tech: ["Python", "PyTorch", "Pandas", "Flask"],
     repo: "https://github.com/mckaykn/capstone",
     demo: "#",
