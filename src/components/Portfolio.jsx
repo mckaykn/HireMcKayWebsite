@@ -34,7 +34,7 @@ export default function Portfolio() {
           <p className="mt-1 text-sm text-slate-600">Aspiring Software Developer: Full-stack & ML</p>
         </div>
         <nav className="flex items-center gap-4">
-          <a href="MCKAY NIELSON Software Engineer Resume.pdf" className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-slate-200 bg-white shadow-sm text-sm">
+          <a href="/MCKAY NIELSON Software Engineer Resume.pdf" className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-slate-200 bg-white shadow-sm text-sm">
             <Download size={16} /> Resume
           </a>
           <a href="https://github.com/mckaykn" aria-label="GitHub" className="p-2 rounded-md hover:bg-slate-100">
@@ -129,7 +129,7 @@ export default function Portfolio() {
                   <a href="https://www.linkedin.com/in/mckay-nielson-871518325/" className="underline">LinkedIn</a>
                 </li>
                 <li>
-                  <a href="MCKAY NIELSON Software Engineer Resume.pdf" className="underline">Resume (PDF)</a>
+                  <a href="/MCKAY NIELSON Software Engineer Resume.pdf" className="underline">Resume (PDF)</a>
                 </li>
               </ul>
             </div>
