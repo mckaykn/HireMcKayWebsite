@@ -63,7 +63,7 @@ export default function Portfolio() {
               </div>
               <div className="rounded-lg border border-slate-100 p-4">
                 <h3 className="text-sm font-semibold">Education</h3>
-                <p className="mt-2 text-sm text-slate-600">B.S. Computer Science<br></br>Western Governors University.</p>
+                <p className="mt-2 text-sm text-slate-600">B.S. Computer Science<br></br>Western Governors University</p>
               </div>
             </div>
 
