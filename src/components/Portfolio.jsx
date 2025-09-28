@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Cheater Detection ML (Demo)",
     desc: "Supervised ML model that cl  assifies players as cheaters vs legit using time-series gameplay data.",
-    tech: ["Python", "PyTorch", "Pandas", "Flask"],
+    tech: ["Python", "Pandas", "Flask", "Scikit"],
     repo: "https://github.com/mckaykn/capstone",
     demo: "#",
   },
@@ -18,9 +18,9 @@ const projects = [
   },
   {
     title: "Personal Website (This)",
-    desc: "React + Tailwind single-file component tailored to job apps — responsive, resume-ready.",
+    desc: "React + Tailwind single-file component tailored to job apps. Responsive, resume-ready.",
     tech: ["React", "Tailwind", "Vite"],
-    repo: "https://github.com/mckaykn",
+    repo: "https://github.com/mckaykn/HireMcKayWebsite",
     demo: "#",
   },
 ];
@@ -31,10 +31,10 @@ export default function Portfolio() {
       <header className="max-w-5xl mx-auto px-6 py-10 flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-extrabold">McKay Nielson</h1>
-          <p className="mt-1 text-sm text-slate-600">Aspiring Software Developer — Full-stack & ML</p>
+          <p className="mt-1 text-sm text-slate-600">Aspiring Software Developer: Full-stack & ML</p>
         </div>
         <nav className="flex items-center gap-4">
-          <a href="/MCKAY NIELSON Software Engineer Resume.pdf" className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-slate-200 bg-white shadow-sm text-sm">
+          <a href="MCKAY NIELSON Software Engineer Resume.pdf" className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-slate-200 bg-white shadow-sm text-sm">
             <Download size={16} /> Resume
           </a>
           <a href="https://github.com/mckaykn" aria-label="GitHub" className="p-2 rounded-md hover:bg-slate-100">
@@ -49,7 +49,7 @@ export default function Portfolio() {
       <main className="max-w-5xl mx-auto px-6 pb-20">
         <section className="grid md:grid-cols-3 gap-8 items-start">
           <div className="md:col-span-2 bg-white rounded-2xl p-8 shadow">
-            <h2 className="text-2xl font-bold">Hello — I'm McKay</h2>
+            <h2 className="text-2xl font-bold">Hello, I'm McKay</h2>
             <p className="mt-4 text-slate-700 leading-relaxed">
               I build practical software with clean interfaces and robust backends. I enjoy solving problems with code, learning new tools, and delivering
               products that people can actually use. My background blends customer-facing experience with self-driven technical projects in Python and
@@ -63,7 +63,7 @@ export default function Portfolio() {
               </div>
               <div className="rounded-lg border border-slate-100 p-4">
                 <h3 className="text-sm font-semibold">Education</h3>
-                <p className="mt-2 text-sm text-slate-600">B.S. Computer Science — Western Governors University.</p>
+                <p className="mt-2 text-sm text-slate-600">B.S. Computer Science<br></br>Western Governors University.</p>
               </div>
             </div>
 
@@ -129,7 +129,7 @@ export default function Portfolio() {
                   <a href="https://www.linkedin.com/in/mckay-nielson-871518325/" className="underline">LinkedIn</a>
                 </li>
                 <li>
-                  <a href="/MCKAY NIELSON Software Engineer Resume.pdf" className="underline">Resume (PDF)</a>
+                  <a href="MCKAY NIELSON Software Engineer Resume.pdf" className="underline">Resume (PDF)</a>
                 </li>
               </ul>
             </div>
